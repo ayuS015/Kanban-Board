@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <main id="app">
+
+        <nav aria-label="Main navigation">
+            <div class="left" aria-hidden="true">
+                Kanban Board
+            </div>
+
+            <div class="right">
+                <button id="toggle-modal" aria-haspopup="dialog" aria-controls="add-task-modal">
+                    Add new task
+                </button>
+            </div>
+        </nav>
+
+
+        <section class="board" role="list" aria-label="Kanban board">
+            <div id="to-do" class="task-column" role="list" aria-label="To do tasks">
+                <div class="heading">
+                    <span class="left">To Do</span>
+                    <span class="right" aria-live="polite">0</span>
+                </div>
+            </div>
+
+            
+            <div id="in-progress" class="task-column" role="list" aria-label="In progress tasks">
+                <div class="heading">
+                    <span class="left">In Progress</span>
+                    <span class="right" aria-live="polite">0</span>
+                </div>
+            </div>
+
+            
+            <div id="done" class="task-column" role="list" aria-label="Completed tasks">
+                <div class="heading">
+                    <span class="left">Done</span>
+                    <span class="right" aria-live="polite">0</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   
+    <div class="modal" id="add-task-modal" role="dialog" aria-modal="true" aria-labelledby="add-task-title">
+        <div class="bg" tabindex="-1"></div>
+
+        <div class="center">
+            <h2 id="add-task-title">Add new task</h2>
+
+            <label>
+                <span class="sr-only">Task title</span>
+                <input id="task-title-input" type="text" placeholder="Task title" autocomplete="off" />
+            </label>
+
+            <label>
+                <span class="sr-only">Task description</span>
+                <textarea id="task-desc-input" placeholder="Task description" rows="3"></textarea>
+            </label>
+
+            <button id="add-new-task" class="add-task-btn">
+                Add task
+            </button>
+        </div>
+    </div>
+
+     
+    <script src="script.js" defer></script>
+</body>
+
+</html>
