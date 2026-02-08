@@ -115,5 +115,4 @@ kanban-board/
 
 Built with ❤️ using **JavaScript**
 
----
 
