@@ -3,7 +3,7 @@
 A **minimal, modern Kanban Board** built using **HTML, CSS, and Vanilla JavaScript**.  
 This project allows users to manage tasks visually across three columns: **To Do**, **In Progress**, and **Done** — with drag & drop support, local persistence, and keyboard accessibility.
 
----
+
 
 ## ✨ Features
 
@@ -17,7 +17,7 @@ This project allows users to manage tasks visually across three columns: **To Do
 - 🎯 No frameworks — **100% Vanilla JS**
 
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -25,7 +25,8 @@ This project allows users to manage tasks visually across three columns: **To Do
 - **CSS3** – custom design system, dark theme, animations
 - **JavaScript (ES6+)** – state management, drag & drop, persistence
 
----
+
+
 
 ## 📂 Project Structure
 
@@ -40,7 +41,7 @@ kanban-board/
 
 ````
 
----
+
 
 
 ## 🧠 How It Works
@@ -74,7 +75,8 @@ kanban-board/
 * Fully keyboard navigable
 * `prefers-reduced-motion` respected
 
----
+
+
 
 ## ⌨️ Keyboard Shortcuts
 
@@ -84,7 +86,8 @@ kanban-board/
 | Redo        | `Ctrl + Y` |
 | Close modal | `Esc`      |
 
----
+
+
 
 ## 🎨 Design Highlights
 
@@ -94,7 +97,8 @@ kanban-board/
 * Responsive grid layout
 * Motion-safe animations
 
----
+
+
 
 ## 📈 Possible Improvements
 
@@ -104,7 +108,7 @@ kanban-board/
 * 🔍 Search & filter tasks
 * ☁️ Cloud sync / backend support
 
----
+
 
 
 ## 🙌 Acknowledgements
